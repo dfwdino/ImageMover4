@@ -28,8 +28,7 @@ namespace SDN.Programs
         private void Form1_Load(object sender, EventArgs e)
         {
             this.Text = "Image Mover - " + GetAsseblyVersion();
-
-
+            
             LookInFolder = myPI.LookInFolder;
 
             if (LookInFolder.Length.Equals(0))
